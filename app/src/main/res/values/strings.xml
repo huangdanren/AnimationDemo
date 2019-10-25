@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AnimationDemo</string>
+    <string name="animate">animate</string>
+
+    <!--视图动画-->
+    <string name="view_translate">平移</string>
+    <string name="view_transparent">透明度</string>
+    <string name="view_scale">缩放</string>
+    <string name="view_rotate">旋转</string>
+    <string name="view_animation">自定义View动画</string>
+    <string name="view_animationset">组合动画</string>
+    <string name="view_layout_animation">LayoutAnimation</string>
+    <string name="view_evaluator">估值器</string>
+
+    <!--属性动画-->
+    <string name="action_byxml">Do by Xml</string>
+    <string name="action_bycode">Do by Code</string>
+    <string name="action_bycustom">Do by Custom</string>
+    <string name="action_byviewpropertyanimator">ViewPropertyAnimator</string>
+    <string name="action_bylayoutanimator">LayoutAnimator(hide/show)</string>
+
+    <!--自定义View实现动画-->
+
+</resources>
