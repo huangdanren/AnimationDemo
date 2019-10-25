@@ -1,20 +1,16 @@
 package com.yofly.animationdemo;
 
-import android.content.ComponentName;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewParent;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.yofly.animationdemo.netnrbottom.TestNetnrBottomViewActivity;
 import com.yofly.animationdemo.property.PropertyAnimDemoActivity;
 import com.yofly.animationdemo.svg.SVGAnimationDemoActivity;
 import com.yofly.animationdemo.utils.DensityUtil;
-import com.yofly.animationdemo.utils.MyLog;
 import com.yofly.animationdemo.viewanimation.ViewAnimationDemoActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -30,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         addItem("查看View视图动画", ViewAnimationDemoActivity.class);
         addItem("查看属性动画", PropertyAnimDemoActivity.class);
         addItem("查看SVG动画", SVGAnimationDemoActivity.class);
-        addItem("查看底部栏动画", TestNetnrBottomViewActivity.class);
 
     }
 
